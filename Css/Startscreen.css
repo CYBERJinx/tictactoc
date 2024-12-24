@@ -58,15 +58,10 @@ audio {
 .button-container {
   display: flex;
   flex-direction: row; /* Align buttons horizontally */
-  justify-content: center; /* Center the buttons horizontally */
-  align-items: center; /* Center the buttons vertically */
+  justify-content: center; /* Center the buttons */
   gap: 10px; /* Space between buttons */
-  margin-top: 200px; /* Space from the top (adjust as needed) */
-  width: 100%; /* Set to 100% width for full screen */
-  height: 100vh; /* Full viewport height for vertical centering */
-  position: absolute; /* Use absolute positioning */
-  top: 0; /* Align from the top */
-  left: 0; /* Align from the left */
+  margin-top: 200px; /* Space from the top */
+  width: 50%; /* Set to 50% width for center alignment */
 }
 
 /* Button styling */
@@ -81,6 +76,25 @@ audio {
   text-align: center;
   width: 100px; /* Smaller width */
 }
+
+/* Start button styles */
+#start-button {
+  background-color: #4CAF50; /* Green background */
+}
+
+#start-button:hover {
+  background-color: #45a049;
+}
+
+/* Multiplayer button styles */
+#Multiplayer-button {
+  background-color: #21a1d8; /* Blue background */
+}
+
+#Multiplayer-button:hover {
+  background-color: #458fa0;
+}
+
 
 /* Start button styles */
 #start-button {
