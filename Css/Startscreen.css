@@ -59,59 +59,23 @@ audio {
   display: flex;
   flex-direction: row; /* Align buttons horizontally */
   justify-content: center; /* Center the buttons */
-  gap: 10px; /* Space between buttons */
+  gap: 20px; /* Space between buttons */
   margin-top: 200px; /* Space from the top */
-  width: 50%; /* Set to 50% width for center alignment */
+  width: 100%; /* Full width */
+  
 }
 
 /* Button styling */
 #start-button, #Multiplayer-button {
-  padding: 8px 15px; /* Smaller padding */
-  font-size: 12px; /* Smaller font size */
+  padding: 15px 30px; /* Fixed padding for consistent button size */
+  font-size: 16px; /* Fixed font size */
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
   text-align: center;
-  width: 100px; /* Smaller width */
-}
-
-/* Start button styles */
-#start-button {
-  background-color: #4CAF50; /* Green background */
-}
-
-#start-button:hover {
-  background-color: #45a049;
-}
-
-/* Multiplayer button styles */
-#Multiplayer-button {
-  background-color: #21a1d8; /* Blue background */
-}
-
-#Multiplayer-button:hover {
-  background-color: #458fa0;
-}
-
-
-/* Start button styles */
-#start-button {
-  background-color: #4CAF50; /* Green background */
-}
-
-#start-button:hover {
-  background-color: #45a049;
-}
-
-/* Multiplayer button styles */
-#Multiplayer-button {
-  background-color: #21a1d8; /* Blue background */
-}
-
-#Multiplayer-button:hover {
-  background-color: #458fa0;
+  width: 200px; /* Fixed width for buttons */
 }
 
 /* Start button styles */
