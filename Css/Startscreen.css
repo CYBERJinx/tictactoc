@@ -61,7 +61,7 @@ audio {
   justify-content: center; /* Center the buttons */
   gap: 20px; /* Space between buttons */
   margin-top: 200px; /* Space from the top */
-  width: 100%; /* Full width */
+  width: 50%; /* Full width */
   
 }
 
@@ -75,7 +75,7 @@ audio {
   cursor: pointer;
   transition: background-color 0.3s;
   text-align: center;
-  width: 100px; /* Fixed width for buttons */
+  width: 50px; /* Fixed width for buttons */
 }
 
 /* Start button styles */
