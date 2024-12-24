@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe - Start Screen</title>
+  <link rel="stylesheet" href="Css/Startscreen.css">
+  <audio id="introSound" src="resources/sounds/intro.mp3"></audio>
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+  <div id="start-screen">
+    <div class="button-container">
+        <button id="start-button">Start vs bot</button>
+        <button id="Multiplayer-button">Play Online</button>
+
+        <!-- Intro audio file -->
+        <audio id="intro-audio" src="resources/sounds/intro.mp3"></audio>
+      </div>
+        <!-- Sound Control -->
+  <div id="sound-control" class="hidden">
+    <button id="sound-toggle">Sound: ON</button>
+  </div> 
+      <!-- Background Music -->
+     <audio id="background-music" src="resources/sounds/game.mp3" loop></audio> 
+     <!-- Game Screen -->
+<div id="game-screen" class="hidden">    
+  </div>
+
+  <footer>
+    <footer>
+      <div class="footer-links">
+        <button id="aboutUsBtn">About Us</button>
+        <button id="helpSupportBtn">Help & Support</button>
+        <button id="contactUsBtn">Contact Us</button>
+      </div>
+    </footer>
+
+<div id="content" class="content"></div>
+  //JS files
+  <script src="js/game.js"></script>
+  <script src="js/startscreen.js"></script>
+  <script src="js/gameLogic.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

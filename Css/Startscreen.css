@@ -1,0 +1,94 @@
+/* General styling for the body */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../resources/images/start.Background.gif");
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* To prevent scrolling */
+}
+.footer-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-links button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+  font-size: 18px;
+}
+
+
+audio {
+  display: none; /* Hides the audio player from view */
+}
+
+/* Heading styling */
+#start-screen h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+.hidden {
+  display: none;
+}
+
+/* Paragraph styling */
+#start-screen p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Container for buttons */
+.button-container {
+  display: flex;
+  flex-direction: row; /* Align buttons vertically */
+  gap: 350px; /* Add space between buttons */
+  margin-top: 200px; /* Move the buttons down */
+}
+
+/* Button styling */
+#start-button, #Multiplayer-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+/* Start button styles */
+#start-button {
+  background-color: #4CAF50;
+}
+
+#start-button:hover {
+  background-color: #45a049;
+}
+
+/* Multiplayer button styles */
+#Multiplayer-button {
+  background-color: #21a1d8;
+}
+
+#Multiplayer-button:hover {
+  background-color: #458fa0;
+}    
+#result-message {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: white; /* Ensure white color */
+}
