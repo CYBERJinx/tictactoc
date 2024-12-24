@@ -67,6 +67,7 @@ audio {
 
 /* Button styling */
 #start-button, #Multiplayer-button {
+  display: center;
   padding: 8px 15px; /* Smaller padding */
   font-size: 12px; /* Smaller font size */
   color: white;
