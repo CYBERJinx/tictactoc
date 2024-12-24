@@ -19,19 +19,19 @@ function loadContent(section) {
         contentDiv.innerHTML = `
             <h2>About Us</h2>
             <p>Welcome to Jinx Esports, where we bring together passionate gamers and enthusiasts to compete and enjoy the best of esports.</p>
-            <img src="resources/images/Aboutus.gif" alt="About Us Image">
+            <img src="resources/images/Aboutf" alt="About Us Image">
         `;
     } else if (section === 'helpSupport') {
         contentDiv.innerHTML = `
             <h2>Help & Support</h2>
             <p>If you have any questions or need assistance, feel free to reach out to our support team at <a href="mailto:jinxesports70@gmail.com">jinxesports70@gmail.com</a>.</p>
-            <img src="resources/images/Help.gif" alt="Help & Support Image">
+            <img src="resources/images/Hel" alt="Help & Support Image">
         `;
     } else if (section === 'contactUs') {
         contentDiv.innerHTML = `
             <h2>Contact Us</h2>
             <p>If you need any information, our team is here to assist you. Reach us at <a href="mailto:jinxesports70@gmail.com">jinxesports70@gmail.com</a>.</p>
-            <img src="resources/images/contact.gif" alt="Contact Us Image">
+            <img src="resources/images/contac" alt="Contact Us Image">
         `;
     }
 }
