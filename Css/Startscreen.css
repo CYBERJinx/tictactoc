@@ -71,16 +71,15 @@ audio {
 
 /* Button styling */
 #start-button, #Multiplayer-button {
-  padding: 8px 16px; /* Smaller padding */
+  padding: 8px 15px; /* Smaller padding */
   font-size: 12px; /* Smaller font size */
   color: white;
-  background-color: #3498db; /* Blue background */
-  border: 2px solid #2980b9; /* Border with different color */
-  border-radius: 5px; /* Rounded corners */
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
   text-align: center;
-  transition: all 0.3s ease; /* Smooth transition for all effects */
-  width: auto; /* Width adjusts according to content */
+  width: 100px; /* Smaller width */
 }
 
 /* Start button styles */
