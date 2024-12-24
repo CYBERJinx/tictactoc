@@ -6,10 +6,16 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: rgb(255, 255, 255); /* White background */
   background-image: url("../resources/images/start.Background.gif");
+  background-size: contain; /* Maintain aspect ratio and fit image */
+  background-repeat: no-repeat; /* Avoid repeating the background */
+  background-position: center; /* Center the background */
   font-family: Arial, sans-serif;
   overflow: hidden; /* To prevent scrolling */
 }
+
+/* Footer links */
 .footer-links {
   text-align: center;
   margin-top: 20px;
@@ -26,7 +32,6 @@ body {
   padding: 20px;
   font-size: 18px;
 }
-
 
 audio {
   display: none; /* Hides the audio player from view */
@@ -52,26 +57,30 @@ audio {
 /* Container for buttons */
 .button-container {
   display: flex;
-  flex-direction: row; /* Align buttons vertically */
-  gap: 350px; /* Add space between buttons */
-  margin-top: 200px; /* Move the buttons down */
+  flex-direction: row; /* Align buttons horizontally */
+  justify-content: center; /* Center the buttons */
+  gap: 20px; /* Space between buttons */
+  margin-top: 200px; /* Space from the top */
+  width: 100%; /* Full width */
+  
 }
 
 /* Button styling */
 #start-button, #Multiplayer-button {
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 15px 30px; /* Fixed padding for consistent button size */
+  font-size: 16px; /* Fixed font size */
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin-top: 10px;
+  text-align: center;
+  width: 200px; /* Fixed width for buttons */
 }
 
 /* Start button styles */
 #start-button {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /* Green background */
 }
 
 #start-button:hover {
@@ -80,15 +89,17 @@ audio {
 
 /* Multiplayer button styles */
 #Multiplayer-button {
-  background-color: #21a1d8;
+  background-color: #21a1d8; /* Blue background */
 }
 
 #Multiplayer-button:hover {
   background-color: #458fa0;
-}    
+}
+
+/* Result message styling */
 #result-message {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: white; /* Ensure white color */
+  color: white;
 }
