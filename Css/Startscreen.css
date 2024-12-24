@@ -75,7 +75,7 @@ audio {
   cursor: pointer;
   transition: background-color 0.3s;
   text-align: center;
-  width: 200px; /* Fixed width for buttons */
+  width: 100px; /* Fixed width for buttons */
 }
 
 /* Start button styles */
